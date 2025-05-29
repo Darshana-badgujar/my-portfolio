@@ -1,0 +1,61 @@
+.education-container {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .education-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00d9ff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .education-timeline {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+  
+  .edu-entry {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    border-left: 3px solid #4db6ac;
+  }
+  
+  .edu-entry::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -9px;
+    width: 14px;
+    height: 14px;
+    background-color: #4db6ac;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #4db6ac;
+  }
+  
+  .edu-year {
+    font-size: 14px;
+    color: #bb9c9c;
+    font-weight: bold;
+  }
+  
+  .edu-title {
+    font-size: 18px;
+    color: #00796b;
+    margin: 4px 0;
+    font-weight: 600;
+  }
+  
+  .edu-institution {
+    font-size: 16px;
+    color: #1fb964;
+  }
+  

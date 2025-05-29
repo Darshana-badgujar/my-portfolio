@@ -1,0 +1,25 @@
+nav {
+    padding: 20px;
+    background-color: #222222;  /* constant dark background */
+    color: #ffffff;             /* constant white text */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: #ffffff;  /* white links */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #1e90ff;  /* bright blue on hover */
+    text-decoration: underline;
+  }
+  

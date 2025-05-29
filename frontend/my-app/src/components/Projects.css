@@ -1,0 +1,79 @@
+
+
+.projects-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00d9ff;
+    position: relative;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .projects-section h2::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+  }
+  
+  .project-card {
+    background-color: linear-gradient(to right, #0f2027, #5db8d4, #2c5364);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+  }
+  
+  .project-card .card-body {
+    padding: 30px;
+  }
+  
+  .project-card .card-title {
+    font-size: 1.5rem;
+    color: #5787bb;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card .card-text {
+    color: #e5e4e4;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-card .btn {
+    background-color: #00d9ff;
+    border: none;
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    color: #080707;
+    
+  }
+ 
+  
+  .project-card .btn:hover {
+    background-color: #77b4bf;
+  }
+  
